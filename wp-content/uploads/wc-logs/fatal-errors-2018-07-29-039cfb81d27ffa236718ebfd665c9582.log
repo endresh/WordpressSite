@@ -1,0 +1,250 @@
+2018-07-29T17:58:24+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:20:43+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:20:56+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:23:24+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:23:31+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:23:41+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:23:43+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:23:47+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:27:03+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:28:47+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:32:27+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:32:34+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:32:38+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ca...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:36:59+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<div class="woo...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '[woocommerce_ch...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:44:39+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<p><strong><div...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '<strong>[woocom...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:44:56+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<p><strong><div...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '<strong>[woocom...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:47:20+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<p><strong><div...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '<strong>[woocom...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:50:58+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<p><strong><div...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '<strong>[woocom...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
+2018-07-29T18:51:38+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:51:43+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:51:49+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:51:53+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:52:00+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:52:06+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/shortcode.php(77): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(268): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(319): APSS_Class->apss_shortcode(Array, '', 'apss-share')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(apss\\-...', 'do_shortcode_ta...', '[apss-share sha...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/inc/extras.php(840): do_shortcode(
+
+2018-07-29T18:52:18+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php:574
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(698): APSS_Class->get_plusones('http://localhos...')
+#1 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/inc/frontend/content-filter.php(42): APSS_Class->get_count('google-plus', 'http://localhos...')
+#2 /var/www/html/wordpress/wp-content/plugins/accesspress-social-share/accesspress-social-share.php(152): include('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-includes/class-wp-hook.php(286): APSS_Class->apss_the_content_filter('')
+#4 /var/www/html/wordpress/wp-includes/plugin.php(203): WP_Hook->apply_filters('<p><strong><div...', Array)
+#5 /var/www/html/wordpress/wp-includes/post-template.php(240): apply_filters('the_content', '<strong>[woocom...')
+#6 /var/www/html/wordpress/wp-content/themes/storevilla/template-parts/
+
